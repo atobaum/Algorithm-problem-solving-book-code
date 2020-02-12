@@ -50,5 +50,5 @@ def kmpSearch(str, searchStr):
                 matched = partialMatch[matched - 1]
     return ret
 
-print(kmpSearch("abcbadflk;jzxc;iovhnabcl;kasdjfabcacsvcsxczxcacabababc", "abc"))
-print(getPartialMatch1("aabaabac"))
+# print(kmpSearch("abcbadflk;jzxc;iovhnabcl;kasdjfabcacsvcsxczxcacabababc", "abc"))
+# print(getPartialMatch1("aabaabac"))
